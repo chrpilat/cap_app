@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../features/filters/presentation/filters_panel.dart';
+import '../features/search/presentation/search_results_panel.dart';
 
 class ConferenceArchivePlatformApp extends StatelessWidget {
   const ConferenceArchivePlatformApp({super.key});
@@ -133,7 +134,7 @@ class HomeScreen extends StatelessWidget {
                   width: 1.5,
                   child: ColoredBox(color: Color(0xFFD1D8E0)),
                 ),
-                Expanded(flex: 3, child: ColoredBox(color: Color(0xFFF5F7FA))),
+                Expanded(flex: 3, child: SearchResultsPanel()),
               ],
             ),
           ),

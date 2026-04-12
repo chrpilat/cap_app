@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../application/filter_notifier.dart';
+import '../../search/application/search_results_notifier.dart';
 
 class FiltersPanel extends ConsumerStatefulWidget {
   const FiltersPanel({super.key});
@@ -201,7 +202,11 @@ class _FiltersPanelState extends ConsumerState<FiltersPanel> {
                 children: [
                   Expanded(
                     child: ElevatedButton.icon(
-                      onPressed: () {},
+                      onPressed: () {
+                        ref
+                            .read(searchResultsProvider.notifier)
+                            .runSearch(filterState);
+                      },
                       icon: const Icon(Icons.play_arrow_rounded, size: 18),
                       label: const Text('Run Search'),
                       style: ElevatedButton.styleFrom(
