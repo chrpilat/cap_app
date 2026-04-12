@@ -11,5 +11,10 @@ class MainFlutterWindow: NSWindow {
     RegisterGeneratedPlugins(registry: flutterViewController)
 
     super.awakeFromNib()
+
+    self.collectionBehavior.insert(.fullScreenPrimary)
+    DispatchQueue.main.async { [weak self] in
+      self?.toggleFullScreen(nil)
+    }
   }
 }

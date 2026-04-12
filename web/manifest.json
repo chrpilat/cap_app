@@ -1,6 +1,6 @@
 {
-    "name": "cap_app",
-    "short_name": "cap_app",
+    "name": "Conference Archive Platform",
+    "short_name": "Conference Archive Platform",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
