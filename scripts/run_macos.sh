@@ -1,0 +1,2 @@
+flutter run --release --dart-define=SUPABASE_URL=https://uowewrduqobdmndixqas.supabase.co --dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVvd2V3cmR1cW9iZG1uZGl4cWFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIzMTI0NzYsImV4cCI6MjA4Nzg4ODQ3Nn0.RwGhyug9zmQirz2bgsdvQIremvomhJYKpUI8_eT5C84 -d macos
+
