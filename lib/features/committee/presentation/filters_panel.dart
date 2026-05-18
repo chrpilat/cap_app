@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../application/filter_notifier.dart';
-import '../../search/application/search_results_notifier.dart';
+import '../application/search_results_notifier.dart';
 
 class FiltersPanel extends ConsumerStatefulWidget {
   const FiltersPanel({super.key});

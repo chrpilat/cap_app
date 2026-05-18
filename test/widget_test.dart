@@ -8,7 +8,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:cap_app/app/app.dart';
+import 'package:cap_app/app/conference_archive_platform_app.dart';
 
 void main() {
   testWidgets('Shows the Supabase configuration screen when auth is disabled', (

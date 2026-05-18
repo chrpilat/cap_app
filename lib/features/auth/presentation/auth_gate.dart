@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../../../app/app.dart';
+import '../../menu/post_login_menu_screen.dart';
 import '../../profile/model/user_profile_data.dart';
 import '../../profile/repository/user_profile_repository.dart';
 
@@ -21,7 +21,7 @@ class AuthGate extends StatelessWidget {
       builder: (context, snapshot) {
         final session = snapshot.data?.session;
         if (session != null) {
-          return const HomeScreen();
+          return const PostLoginMenuScreen();
         }
         return const LoginScreen();
       },

@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../filters/domain/filter_state.dart';
+import '../domain/filter_state.dart';
 import '../domain/search_result.dart';
 import '../domain/search_results_state.dart';
 
